@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/Micro_Dust"
+        android:icon="@drawable/cloud_24dp"
+        android:title="@string/cloud"/>
+
+    <item
+        android:id="@+id/shopping"
+        android:icon="@drawable/ic_shopping_basket"
+        android:title="@string/shopping"/>
+
+
+    <item
+        android:id="@+id/my_page"
+        android:icon="@drawable/ic_person"
+        android:title="@string/person"/>
+
+</menu>

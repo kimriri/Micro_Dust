@@ -1,0 +1,11 @@
+<resources>
+    <string name="micro_Dust">미세방어</string>
+    <string name="LESSON">뭐 배울래?</string>
+    <string name="share">정보 공유</string>
+    <string name="alarm">알림 설정</string>
+    <string name="cloud">미세먼지!</string>
+    <string name="shopping">쇼핑하기</string>
+    <string name="person">내 정보</string>
+    <string name="baseURL">https://dapi.kakao.com</string>
+
+</resources>

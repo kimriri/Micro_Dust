@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.micro_dust">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <meta-data android:name="com.kakao.sdk.AppKey" android:value="363349e60d6302b7e50770c638c9be70"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/cloud_24dp"
+        android:label="@string/micro_Dust"
+        android:roundIcon="@drawable/cloud_24dp"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true">
+        <activity android:name=".Micro_Dust_Search"></activity>
+        <activity
+            android:name=".Splash"
+            android:label="@string/micro_Dust"
+            android:theme="@style/Splash">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity" />
+    </application>
+
+</manifest>
